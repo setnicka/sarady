@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Šarády</title>
+	<script src="sarady.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+	<div id="word"><small>Klikni na [Další slovo]</small></div>
+	<div id="controls">
+		<button class="primary" onclick="nextWord();">Další slovo</button><br>
+		<button class="danger" onclick="if (confirm('Resetovat použitá slova?')) { resetUsedWords(); }">Resetovat použitá slova</button><br>
+		<div id="controls_datasets">
+			<b>Datasety:</b>
+			<div id="datasets"></div>
+		</div>
+	</div>
+	<div id="statistics"></div>
+</main>
+<footer>
+	<small>Github: <a href="https://github.com/setnicka/sarady"><code>github.com/setnicka/sarady</code></a></small>
+</footer>
+</body>
+</html>

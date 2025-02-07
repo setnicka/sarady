@@ -1,0 +1,47 @@
+body {
+	text-align: center;
+	min-height: 100vh;
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	flex: 1;
+}
+
+#word {
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+	font-size: 200%;
+	margin: 10px;
+}
+
+#word small {
+	color: #777;
+	font-size: 50%;
+}
+
+#controls button {
+	margin: 5px;
+}
+
+#controls button.primary {
+	padding: 10px;
+	font-weight: bold;
+	font-size: 150%;
+}
+
+#controls_datasets {
+	border: 1px #777 solid;
+	background-color: #eee;
+	padding: 10px;
+}
+
+#controls_datasets small {
+	color: #777;
+}
+
+footer {
+	min-height: 25px;
+}
